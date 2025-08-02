@@ -14,3 +14,12 @@ int main()
 
 
     double m = (d_m * sin(theta_rad)) / wavelength_m;
+printf("Given: \n");
+printf("Wavelength= %0.2f nm \n", wavelength_nm);
+printf("Angle (theta)= %0.2 degrees \n", theta_deg);
+printf("Slit separation = %0.1f um \n\n", d_um);
+
+printf("Result: \n");
+printf("Order of maxima (m)=%0.2f \n", m);
+
+return0;
