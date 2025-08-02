@@ -1,0 +1,7 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() 
+{ 
+double theta_deg=45;
+double theta_red=theta-deg* (M_PI/180);
