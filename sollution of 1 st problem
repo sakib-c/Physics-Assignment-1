@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    double wavelength_nm = 580;
+    double theta_deg = 45;
+    double d_um = 8;
+
+
+    double wavelength_m = wavelength_nm * 1e-9;
+    double d_m = d_um * 1e-6;
+    double theta_rad = theta_deg * (M_PI / 180.0);
+
+
+    double m = (d_m * sin(theta_rad)) / wavelength_m;
