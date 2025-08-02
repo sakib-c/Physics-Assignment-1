@@ -23,3 +23,5 @@ printf("Result: \n");
 printf("Order of maxima (m)=%0.2f \n", m);
 
 return0;
+
+}
